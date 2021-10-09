@@ -12,15 +12,14 @@ const FILES_TO_CACHE = [
 ];
 
 // install
-self.addEventListener("install", function (evt) {
+self.addEventListener("install", evt => {
   // pre cache all static assets
   evt.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(FILES_TO_CACHE))
+    caches
+      .open(CACHE_NAME)
+      .then((cache) => cache.addAll(FILES_TO_CACHE))
+      .then(() => self.skipWaiting())
   );
-
-  // tell the browser to activate this service worker immediately once it
-  // has finished installing
-  self.skipWaiting();
 });
 
 // activate
