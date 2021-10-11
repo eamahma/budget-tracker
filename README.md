@@ -22,16 +22,16 @@ SO THAT my account balance is accurate when I am traveling
 The following images show the web application's appearance and functionality:
 
 Setting Service Workers to offline simulation no Internet connection.
-![Setting Service Workers to offline simulation no Internet connection.](./assets/img/Heroku-Service-Workers-Offline.jpg)
+![Setting Service Workers to offline simulation no Internet connection.](/assets/img/Heroku-Service-Workers-Offline.jpg)
 
 Entering deposits and expenses in offline mode will be stored in IndexedDB under BudgetDB.
-![Entering deposits and expenses in offline mode will be stored in IndexedDB under BudgetDB.](./assets/img/Heroku-IndexedDB-Offline.jpg)
+![Entering deposits and expenses in offline mode will be stored in IndexedDB under BudgetDB.](/assets/img/Heroku-IndexedDB-Offline.jpg)
 
 As soon as network connection restored data will be pushed to online database and IndexedDB will be cleared.
-![As soon as network connection restored data will be pushed to online database and IndexedDB will be cleared.](./assets/img/Heroku-Service-Workers-Online.jpg)
+![As soon as network connection restored data will be pushed to online database and IndexedDB will be cleared.](/assets/img/Heroku-Service-Workers-Online.jpg)
 
 Data entered in offline mode updated into Mongodb after Internet connection restored.
-![Data entered in offline mode updated into Mongodb after Internet connection restored..](./assets/img/MongodB-transaction.jpg)
+![Data entered in offline mode updated into Mongodb after Internet connection restored..](/assets/img/MongodB-transaction.jpg)
 
 ## Link to live Heroku web page
 The app deployed on Heroku and reachable at following link: 
