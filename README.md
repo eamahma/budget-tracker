@@ -21,6 +21,9 @@ SO THAT my account balance is accurate when I am traveling
 
 The following images show the web application's appearance and functionality:
 
+Working application.
+![Working application.](/assets/img/powerful-taiga-92657.herokuapp.com.png)
+
 Setting Service Workers to offline simulation no Internet connection.
 ![Setting Service Workers to offline simulation no Internet connection.](/assets/img/Heroku-Service-Workers-Offline.png)
 
